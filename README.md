@@ -14,29 +14,51 @@ What's Included?
 This cheat sheet covers the core concepts of Java programming, including:
 
 Variables and Data Types: Learn how to declare variables and work with different data types such as integers, floating-point numbers, booleans, characters, and strings.
-
-*Operators:* Understand the various types of operators in Java, including arithmetic, relational, logical, and assignment operators.
-
-Control Statements: Explore control flow constructs such as if-else statements, switch statements, loops, and more.
-
-Arrays: Discover how to declare and manipulate arrays, one of the fundamental data structures in Java.
-
-Methods: Learn how to define and call methods, pass arguments, and return values.
-
-Classes and Objects: Understand the principles of object-oriented programming in Java, including classes, objects, constructors, and instance variables.
-
-Inheritance and Polymorphism: Explore inheritance, method overriding, and polymorphism, essential concepts for building robust and scalable Java applications.
-
-Exception Handling: Learn how to handle exceptions and errors gracefully to ensure the robustness of your code.
-
-Input/Output: Understand how to perform input and output operations in Java using streams, readers, writers, and the Java I/O API.
-
-Collections Framework: Explore the Java Collections Framework, including lists, sets, maps, and iterators, for managing groups of objects efficiently.
-
-Generics: Discover how to use generics to create type-safe collections and methods that can work with any data type.
-
-Concurrency: Learn the basics of concurrent programming in Java, including threads, synchronization, and thread safety.
-
+Operators: 
+            Understand the various types of operators in Java, including arithmetic, relational, logical, and assignment operators.
+Control Statements: 
+                    Explore control flow constructs such as if-else statements, switch statements, loops, and more.
+Arrays: 
+        Discover how to declare and manipulate arrays, one of the fundamental data structures in Java.
+Methods: 
+          Learn how to define and call methods, pass arguments, and return values.
+Classes and Objects: 
+                      Understand the principles of object-oriented programming in Java, including classes, objects, constructors, and instance variables.
+Inheritance and Polymorphism: 
+                              Explore inheritance, method overriding, and polymorphism, essential concepts for building robust and scalable Java applications.
+Exception Handling: 
+                    Learn how to handle exceptions and errors gracefully to ensure the robustness of your code.
+Input/Output: 
+              Understand how to perform input and output operations in Java using streams, readers, writers, and the Java I/O API.
+Collections Framework: 
+                        Explore the Java Collections Framework, including lists, sets, maps, and iterators, for managing groups of objects efficiently.
+Generics: 
+          Discover how to use generics to create type-safe collections and methods that can work with any data type.
+Concurrency: 
+              Learn the basics of concurrent programming in Java, including threads, synchronization, and thread safety.
+              
 This cheat sheet is designed to be concise yet comprehensive, providing you with the essential information you need to write clean, efficient, and maintainable Java code.
 
-## CONTENT: 
+## Table Of Contents: 
+
+1.Variables and Data Types
+2. Operators
+3. Control Statements
+4. Arrays
+5. Methods
+6. Classes and Objects
+7. Inheritance
+8. Polymorphism
+9. Exception Handling
+10. Input/Output
+11. Collections Framework
+12. Generics
+13. Concurrency
+
+
+
+
+
+
+
+
