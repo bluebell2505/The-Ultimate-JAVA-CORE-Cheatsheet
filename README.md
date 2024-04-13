@@ -1,6 +1,3 @@
-# The-Ultimate-JAVA-CORE-Cheatsheet
-
-
 # The Ultimate JAVA CORE Cheatsheet 💻🚀
 
 # Introduction
