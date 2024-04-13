@@ -15,7 +15,7 @@ This cheat sheet covers the core concepts of Java programming, including:
 
 Variables and Data Types: Learn how to declare variables and work with different data types such as integers, floating-point numbers, booleans, characters, and strings.
 
-Operators: Understand the various types of operators in Java, including arithmetic, relational, logical, and assignment operators.
+*Operators:* Understand the various types of operators in Java, including arithmetic, relational, logical, and assignment operators.
 
 Control Statements: Explore control flow constructs such as if-else statements, switch statements, loops, and more.
 
