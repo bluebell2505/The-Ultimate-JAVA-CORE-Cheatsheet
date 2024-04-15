@@ -110,8 +110,19 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
 ---
 
 ## JDK, JRE, and JVM
+**JVM(Java Virtual Machine**
+- Loads code
+- Verifies code
+- Executes code
+- Provides runtime environment
 
+**JRE(Java Runtime Environment)**
+- A set of software tools which are used for developing Java applications.
+- It physically exists. 
+- It contains a set of libraries + other files that JVM
 
+**JDK(Java Developers Kit** 
+- 
 
 **Variables and Data Types:**
 - **Variables:** Containers for storing data values.
@@ -180,11 +191,24 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
   }
   ```
 - **Loops:** Repeatedly execute a block of code.
+  They are of 3 types-
+  1. for loop
+  2. while loop
+  3. do-while loop
+
+---
+1. **for loop:** 
+    - Repeatedly execute a block of code.
+    - Used when the number of iteration is **fixed**.
   ```java
   for (int i = 0; i < 5; i++) {
       System.out.println("Hello");
   }
   ```
+
+2. **while loop:**
+    - 
+
 ---
 **Arrays:**
 - **Declaration:** Create an array.
