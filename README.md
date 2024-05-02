@@ -298,6 +298,15 @@ Certainly, let's continue:
 ---
 
 **Inheritance:**
+- Acquires properties of parent class into child class
+- IS-A relationship
+- *extends* keyword is used for inheritance
+
+*Types of Inheritance:*
+1. single
+2. multilevel
+3. Hierarchical
+
 - **Extending Classes:** Create a subclass.
   ```java
   public class ElectricCar extends Car {
@@ -319,7 +328,6 @@ Certainly, let's continue:
   }
   ```
 
-Certainly, let's continue:
 
 ---
 
