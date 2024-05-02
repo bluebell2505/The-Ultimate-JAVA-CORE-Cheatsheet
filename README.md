@@ -121,8 +121,9 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
 - It physically exists. 
 - It contains a set of libraries + other files that JVM
 
-**JDK(Java Developers Kit** 
+**JDK(Java Developers Kit)** 
 - 
+
 
 **Variables and Data Types:**
 - **Variables:** Containers for storing data values.
