@@ -15,9 +15,8 @@ Welcome to the ultimate Java core cheat sheet! This quick reference guide is des
 
 **What's Included?**
 
-- **Variables and Data Types:** 
-  - **Variables:** **[`Declaration`](#variable-declaration)__,__[`Initialization`](#variable-initialization)__,__[`Naming Conventions`](#naming-conventions)__
-  - **Data Types:** **[`Primitive Types`](#primitive-types)__,__[`Reference Types`](#reference-types)**
+- **Variables and Data Types** 
+  
   
 - **Operators:** 
   - **Arithmetic Operators:** **[`+`](#addition)__,__[`-`](#subtraction)__,__[`*`](#multiplication)__,__[`/`](#division)__,__[`%`](#modulus)**
@@ -110,20 +109,26 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
 ---
 
 ## JDK, JRE, and JVM
-**JVM(Java Virtual Machine**
+**JVM (Java Virtual Machine)**
 - Loads code
 - Verifies code
 - Executes code
 - Provides runtime environment
 
-**JRE(Java Runtime Environment)**
+**JRE (Java Runtime Environment)**
 - A set of software tools which are used for developing Java applications.
 - It physically exists. 
 - It contains a set of libraries + other files that JVM
 
-**JDK(Java Developers Kit)** 
-- 
+**JDK (Java Development Kit)**
+- A comprehensive set of tools for developing Java applications.
+- It physically exists.
+- It includes the JRE, which provides the necessary environment to run Java applications.
+- Contains development tools like the Java compiler (`javac`), debugger (`jdb`), and various other tools for Java development.
+- Provides additional libraries and frameworks that are necessary for developing Java applications.
+- Used by developers to write, compile, and debug Java applications.
 
+---
 
 **Variables and Data Types:**
 - **Variables:** Containers for storing data values.
@@ -197,7 +202,6 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
   2. while loop
   3. do-while loop
 
----
 1. **for loop:** 
     - Repeatedly execute a block of code.
     - Used when the number of iteration is **fixed**.
@@ -208,10 +212,32 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
   ```
 
 2. **while loop:**
-    - 
+- Repeatedly execute a block of code as long as a given condition is true.
+- Used when the number of iterations is **not fixed** and depends on a condition.
+  ```java
+  int i = 0;
+  while (i < 5) {
+      System.out.println("Hello");
+      i++;
+  }
+  ```
+
+3. **do-while loop:**
+- Similar to the `while` loop, but it ensures that the block of code is executed at least once before checking the condition.
+- Used when the code block should be executed at least once, regardless of the condition.
+  ```java
+  int i = 0;
+  do {
+      System.out.println("Hello");
+      i++;
+  } while (i < 5);
+  ```
 
 ---
+
 **Arrays:**
+- An array in Java is a collection of elements, all of the same datatype, stored in a contiguous memory location.
+- Arrays are fixed in size and allow for indexed access to their elements, enabling efficient retrieval and modification of data.
 - **Declaration:** Create an array.
   ```java
   int[] numbers = new int[5];
@@ -229,11 +255,11 @@ Initially crafted by Sun Microsystems (now a subsidiary of Oracle) in 1995, Java
   int[][] matrix = {{1, 2}, {3, 4}};
   ```
 
-Certainly, let's continue:
-
 ---
 
 **Methods:**
+- Methods in Java are blocks of code that perform specific tasks and can be called to execute those tasks whenever needed.
+- They allow for code reuse, modularity, and better organization by encapsulating behavior and logic within a single unit.
 - **Declaration:** Define a method.
   ```java
   void greet() {
@@ -265,6 +291,10 @@ Certainly, let's continue:
 ---
 
 **Classes and Objects:**
+**Classes**
+- Classes in Java are blueprints for creating objects, encapsulating data (fields) and behavior (methods) that define the properties and actions of the objects.
+- A class provides a template from which individual objects are instantiated, each with its own set of data but sharing the same methods.
+
 - **Class Declaration:** Blueprint for objects.
   ```java
   public class Car {
@@ -332,6 +362,9 @@ Certainly, let's continue:
 ---
 
 **Polymorphism:**
+- Polymorphism in Java allows objects to be treated as instances of their parent class rather than their actual class, enabling a single interface to represent different underlying forms (data types).
+- This is achieved through method overriding and method overloading, allowing the same method name to perform different tasks based on the object calling it.
+  
 - **Static Polymorphism:** Compile-time polymorphism achieved through method overloading.
   ```java
   int add(int a, int b) {
